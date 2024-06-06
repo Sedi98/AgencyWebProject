@@ -454,7 +454,7 @@
 .socail_media_links {
   color: black !important;
   width: 100%;
-  justify-content: space-between;
+  gap: 16px;
 }
 
 .socail_media_links a {
@@ -814,6 +814,111 @@ section {
   font-weight: 400;
   font-size: 16px;
   line-height: 33px;
+}
+
+
+
+.hero_contact{
+  padding: 5% 5%;
+}
+
+
+.hero_contant_title{
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 77px;
+}
+
+
+.hero_contant_text{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+
+}
+
+
+.hero_contact_face{
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #F5F3DA;
+}
+
+
+.hero_cnt_left{
+  align-items: flex-start;
+}
+
+
+.contact_inf_container{
+  padding: 5% 5%;
+  
+}
+
+
+.contact_inf_text{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+
+.contact_inf_card{
+  width: 100%;
+  padding: 0% 2%;
+}
+
+
+.form_labels{
+  display: block;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+.contact_form_container{
+background-color: #E8F4FA;
+padding: 5% 5%;
+}
+
+
+.form_title{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 56px;
+  text-align: center;
+}
+
+
+.form_text{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 25px;
+  text-align: center;
+}
+
+
+.form_input{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 9px;
+  border: none;
+  padding: 10px 5px;
+  resize: none;
+}
+
+
+.contact_submit_btn{
+  margin-left: auto;
+  border-radius: 10px;
+  padding: 15px 30px;
+  border: none;
+  background-color: #1090cb;
+  color: #fff;
+  cursor: pointer;
 }
 
 
