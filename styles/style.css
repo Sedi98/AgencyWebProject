@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primaryFont);
   border-bottom: 1px solid #c4c4c4;
 }
 
@@ -24,7 +24,7 @@
   font-weight: 700;
   font-size: 29px;
   line-height: 43px;
-  color: #1090cb;
+  color:var(--primaryColor); 
 }
 
 .links {
@@ -41,7 +41,7 @@
 }
 
 .active {
-  color: #1090cb !important;
+  color: var(--primaryColor)!important;
   position: relative;
 }
 
@@ -58,7 +58,7 @@
 
 .nav_btn {
   padding: 10px 26px;
-  background-color: #1090cb;
+  background-color: var(--primaryColor);
   color: white;
 
   font-weight: 400;
@@ -69,7 +69,7 @@
 }
 
 .hero_container {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primaryFont);
   background-color: rgba(16, 144, 203, 0.1);
   padding: 50px 75px;
   position: relative;
@@ -85,7 +85,7 @@
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
-  color: #1090cb;
+  color: var(--primaryColor);
 }
 
 .hero_text {
@@ -122,19 +122,19 @@
 }
 
 .hero_btn {
-  background-color: #1090cb;
+  background-color: var(--primaryColor);
   padding: 15px 35px;
 
   border-radius: 10px;
   border: none;
-  color: #fff;
+  color: var(--colorWhite);
   cursor: pointer;
 }
 
 .btn_light {
-  border: 1px solid #1090cb !important;
-  background-color: #fff;
-  color: #1090cb;
+  border: 1px solid var(--primaryColor)!important;
+  background-color: var(--colorWhite);
+  color: var(--primaryColor);
   padding: 15px 35px;
 
   border-radius: 10px;
@@ -167,7 +167,7 @@
 }
 
 .bg_blue {
-  background-color: #1090cb;
+  background-color: var(--primaryColor);
 }
 
 .circle {
@@ -245,7 +245,7 @@
 }
 
 .middle_title span {
-  color: #1090cb;
+  color: var(--primaryColor);
 }
 
 .middle_text {
@@ -282,7 +282,7 @@
   width: 50%;
   padding: 48px;
   color: white;
-  background-color: #1090cb;
+  background-color: var(--primaryColor);
   border-radius: 20px;
 }
 
@@ -313,16 +313,16 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 27px;
-  background-color: #1090cb;
-  color: #fff;
+  background-color: var(--primaryColor);
+  color: var(--colorWhite);
 }
 
 .content_btn_right {
   font-weight: 500;
   font-size: 16px;
   line-height: 27px;
-  color: #1090cb;
-  background-color: #fff;
+  color: var(--primaryColor);
+  background-color: var(--colorWhite);
   position: relative;
 }
 
@@ -394,7 +394,7 @@
   border-radius: 10px;
   text-transform: uppercase;
   background-color: black;
-  color: #fff;
+  color: var(--colorWhite);
 }
 
 .content_circle {
@@ -476,14 +476,14 @@
 
 .copyright_text {
   color: #686868;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primaryFont);
 }
 
 /* about us page  */
 .hero_about {
   padding: 10% 5%;
   gap: 5%;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primaryFont);
 }
 
 .hero_about_left {
@@ -524,7 +524,7 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 37px;
-  color: #1090cb;
+  color: var(--primaryColor);
 }
 
 .about_header {
@@ -540,7 +540,7 @@
 }
 
 .about_info_title {
-  color: #1090cb;
+  color: var(--primaryColor);
   font-weight: 600;
   font-size: 45px;
   line-height: 72px;
@@ -569,15 +569,15 @@
   font-size: 16px;
   line-height: 32px;
   padding: 10px 50px;
-  border: 1px solid #1090cb;
+  border: 1px solid var(--primaryColor);
   border-radius: 10px;
-  color: #1090cb;
-  background-color: #fff;
+  color: var(--primaryColor);
+  background-color: var(--colorWhite);
   cursor: pointer;
 }
 
 .mid_card_container {
-  background-color: #fff;
+  background-color: var(--colorWhite);
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.17);
   padding: 50px;
 }
@@ -636,7 +636,7 @@
 
 .service_hero_top_img {
   padding: 20px;
-  background-color: #fff;
+  background-color: var(--colorWhite);
   border-radius: 50%;
 }
 
@@ -653,14 +653,14 @@
 }
 
 .service_hero_title span {
-  color: #1090cb;
+  color: var(--primaryColor);
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
 }
 
 section {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primaryFont);
 }
 
 .service_hero_text {
@@ -710,7 +710,7 @@ section {
   font-weight: 600;
   font-size: 30px;
   line-height: 51px;
-  color: #1090cb;
+  color: var(--primaryColor);
 }
 
 
@@ -727,9 +727,9 @@ section {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  border:  1px solid #1090cb;
-  color: #1090cb;
-  background-color: #fff;
+  border:  1px solid var(--primaryColor);
+  color: var(--primaryColor);
+  background-color: var(--colorWhite);
   border-radius: 10px;
   cursor: pointer;
 }
@@ -737,14 +737,14 @@ section {
 
 .service_stats{
   padding: 10% 5%;
-  background-color: #1090cb;
+  background-color: var(--primaryColor);
   position: relative;
   margin: 10% 0px;
 }
 
 .service_stats_card{
   text-align: center;
-  color: #fff;
+  color: var(--colorWhite);
 }
 
 
@@ -903,7 +903,7 @@ padding: 5% 5%;
 
 .form_input{
   width: 100%;
-  background-color: #fff;
+  background-color: var(--colorWhite);
   border-radius: 9px;
   border: none;
   padding: 10px 5px;
@@ -916,8 +916,8 @@ padding: 5% 5%;
   border-radius: 10px;
   padding: 15px 30px;
   border: none;
-  background-color: #1090cb;
-  color: #fff;
+  background-color: var(--primaryColor);
+  color: var(--colorWhite);
   cursor: pointer;
 }
 
@@ -965,7 +965,7 @@ padding: 5% 5%;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1023px) {
   .links {
     display: none;
   }
@@ -1065,6 +1065,50 @@ padding: 5% 5%;
   }
 
   .footer_container {
+    width: 100%;
+  }
+
+
+  /* contact page */
+
+  .hero_contact{
+    flex-direction: column;
+  }
+
+
+  .hero_cnt_left{
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .contact_inf_container{
+    flex-direction: column-reverse;
+  }
+
+
+  /* about */
+
+  .hero_about{
+    flex-direction: column;
+  }
+
+
+  .hero_about_left,.hero_about_right{
+    width: 100%;
+  }
+
+
+  .hero_left_inner_first{
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about_middle{
+    flex-direction: column;
+  }
+
+  .about_mid_left, .about_mid_right{
     width: 100%;
   }
 }
